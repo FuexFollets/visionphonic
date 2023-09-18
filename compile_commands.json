@@ -1,0 +1,22 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++23",
+      "-Wshadow",
+      "-Wall",
+      "-Wextra",
+      "-pedantic-errors",
+      "-pedantic",
+      "-I",
+      "./SFML/include/",
+      "-c",
+      "-o",
+      "dist/objects/test/testsfml.o",
+      "src/test/testsfml.cpp"
+    ],
+    "directory": "/home/fuexfollets/Projects/visionphonic",
+    "file": "/home/fuexfollets/Projects/visionphonic/src/test/testsfml.cpp",
+    "output": "/home/fuexfollets/Projects/visionphonic/dist/objects/test/testsfml.o"
+  }
+]
