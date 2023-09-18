@@ -1,4 +1,4 @@
-LIBRARY_INCLUDES :=
+LIBRARY_INCLUDES := -I ./SFML/include/
 
 LXX_FLAGS :=
 
