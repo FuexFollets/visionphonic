@@ -2,5 +2,5 @@
 	path = Constants
 	url = https://github.com/FuexFollets/Constants.git
 [submodule "SFML"]
-	path = SFML
+	path = lib/SFML
 	url = https://github.com/SFML/SFML.git
