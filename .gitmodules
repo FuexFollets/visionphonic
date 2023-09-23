@@ -4,3 +4,4 @@
 [submodule "lib/SFML"]
 	path = lib/SFML
 	url = https://github.com/SFML/SFML.git
+    ignore = dirty
