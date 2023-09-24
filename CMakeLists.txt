@@ -6,6 +6,7 @@ include(cmake/options.cmake)
 include(cmake/libs.cmake)
 include(tests/CMakeLists.txt)
 
-add_executable(VisionPhonic "${PROJECT_SOURCE_DIR}/src/VisionPhonic/main.cpp")
+add_subdirectory(${PROJECT_SOURCE_DIR}/src/VisionPhonic/Analysis)
 
-target_link_libraries(VisionPhonic PUBLIC sfml-graphics)
+add_executable(VisionPhonic "${PROJECT_SOURCE_DIR}/src/VisionPhonic/main.cpp")
+target_link_libraries(VisionPhonic PUBLIC sfml-graphics VFAnalysis)
