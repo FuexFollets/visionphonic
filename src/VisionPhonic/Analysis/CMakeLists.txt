@@ -1,2 +1,2 @@
-add_library(VFAnalysis ./rgb_grid.hpp ./rgb_grid.cpp)
+add_library(VFAnalysis RGBGrid.hpp RGBGrid.cpp)
 target_include_directories(VFAnalysis PUBLIC ${PROJECT_SOURCE_DIR}/lib/AudioFile)
