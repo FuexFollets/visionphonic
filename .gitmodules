@@ -5,3 +5,6 @@
 	path = lib/SFML
 	url = https://github.com/SFML/SFML.git
     ignore = dirty
+[submodule "lib/AudioFile"]
+	path = lib/AudioFile
+	url = https://github.com/adamstark/AudioFile
