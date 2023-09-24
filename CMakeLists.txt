@@ -4,6 +4,7 @@ project(VisionPhonic)
 
 include(cmake/options.cmake)
 include(cmake/libs.cmake)
+include(tests/CMakeLists.txt)
 
 add_executable(VisionPhonic "${PROJECT_SOURCE_DIR}/src/VisionPhonic/main.cpp")
 
